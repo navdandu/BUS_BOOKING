@@ -1,0 +1,9 @@
+E:\TRAVELPROJECT 3-TIER\travelbizzproject\Businesslogiclayer\bin\Debug\Businesslogiclayer.dll
+E:\TRAVELPROJECT 3-TIER\travelbizzproject\Businesslogiclayer\bin\Debug\Businesslogiclayer.pdb
+E:\TRAVELPROJECT 3-TIER\travelbizzproject\Businesslogiclayer\obj\Debug\Businesslogiclayer.csprojResolveAssemblyReference.cache
+E:\TRAVELPROJECT 3-TIER\travelbizzproject\Businesslogiclayer\obj\Debug\Businesslogiclayer.dll
+E:\TRAVELPROJECT 3-TIER\travelbizzproject\Businesslogiclayer\obj\Debug\Businesslogiclayer.pdb
+E:\TRAVELPROJECT 3-TIER\travelbizzproject\Businesslogiclayer\bin\Debug\Businessobjects.dll
+E:\TRAVELPROJECT 3-TIER\travelbizzproject\Businesslogiclayer\bin\Debug\Businessobjects.pdb
+E:\TRAVELPROJECT 3-TIER\travelbizzproject\Businesslogiclayer\bin\Debug\Dataacesslayer.dll
+E:\TRAVELPROJECT 3-TIER\travelbizzproject\Businesslogiclayer\bin\Debug\Dataacesslayer.pdb

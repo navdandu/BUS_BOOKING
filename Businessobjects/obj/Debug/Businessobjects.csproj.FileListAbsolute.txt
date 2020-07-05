@@ -1,0 +1,5 @@
+E:\TRAVELPROJECT 3-TIER\travelbizzproject\Businessobjects\bin\Debug\Businessobjects.dll
+E:\TRAVELPROJECT 3-TIER\travelbizzproject\Businessobjects\bin\Debug\Businessobjects.pdb
+E:\TRAVELPROJECT 3-TIER\travelbizzproject\Businessobjects\obj\Debug\Businessobjects.csprojResolveAssemblyReference.cache
+E:\TRAVELPROJECT 3-TIER\travelbizzproject\Businessobjects\obj\Debug\Businessobjects.dll
+E:\TRAVELPROJECT 3-TIER\travelbizzproject\Businessobjects\obj\Debug\Businessobjects.pdb

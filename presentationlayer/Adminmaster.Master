@@ -1,0 +1,98 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Adminmaster.master.cs" Inherits="presentationlayer.Adminmaster" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+        }
+        .auto-style3 {
+            color: #000000;
+        }
+        .auto-style5 {
+            color: #000000;
+            font-size: large;
+        }
+        .auto-style8 {
+            color: #000000;
+            font-size: medium;
+        }
+        .auto-style4 {
+            color: #FF0000;
+            font-size: medium;
+        }
+        </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <table class="auto-style1">
+            <tr>
+                <td>
+                    <asp:Image ID="Image1" runat="server" Height="243px" ImageUrl="~/images/naveen-trans.png" Width="971px" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <asp:Menu ID="Menu1" runat="server" BackColor="#FFFBD6" DynamicHorizontalOffset="2" Font-Names="Verdana" Font-Size="0.8em" ForeColor="#990000" Orientation="Horizontal" StaticSubMenuIndent="10px" style="font-weight: 700; font-size: x-large">
+                        <DynamicHoverStyle BackColor="#990000" ForeColor="White" />
+                        <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                        <DynamicMenuStyle BackColor="#FFFBD6" />
+                        <DynamicSelectedStyle BackColor="#FFCC66" />
+                        <Items>
+                            <asp:MenuItem NavigateUrl="~/Selectbus.aspx" Text="HOME" Value="HOME"></asp:MenuItem>
+                            <asp:MenuItem Text="BUS" Value="BUS">
+                                <asp:MenuItem Text="ADD" Value="ADD">
+                                </asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="~/ViewBus.aspx" Text="VIEW" Value="VIEW"></asp:MenuItem>
+                            </asp:MenuItem>
+                            <asp:MenuItem Text="PICKUPPOINT" Value="PICKUPPOINT">
+                                <asp:MenuItem Text="ADD" Value="ADD" NavigateUrl="~/AddPickupPoints.aspx">
+                                </asp:MenuItem>
+                                <asp:MenuItem Text="DELETE" Value="DELETE"></asp:MenuItem>
+                                <asp:MenuItem Text="VIEW" Value="VIEW" NavigateUrl="~/Viewpickuppoints.aspx"></asp:MenuItem>
+                                <asp:MenuItem Text="ADD BUSPICKUPPOINTS" Value="ADD BUSPICKUPPOINTS" NavigateUrl="~/Addbuspickuppoints.aspx"></asp:MenuItem>
+                            </asp:MenuItem>
+                            <asp:MenuItem Text="DESTINATIONPOINTS" Value="DESTINATIONPOINTS">
+                                <asp:MenuItem Text="ADD" Value="ADD" NavigateUrl="~/Adddestinationpoints.aspx">
+                                </asp:MenuItem>
+                                <asp:MenuItem Text="DELETE" Value="DELETE"></asp:MenuItem>
+                                <asp:MenuItem Text="VIEW" Value="VIEW" NavigateUrl="~/ViewDestinationpoints.aspx"></asp:MenuItem>
+                                <asp:MenuItem Text="ADD BUSDESTINATIONPOINTS" Value="ADD BUSDESTINATIONPOINTS" NavigateUrl="~/Addbusdestinationpoints.aspx"></asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="~/AddFareDestination.aspx" Text="ADD FARE DESTINATION" Value="Add Fare Destination"></asp:MenuItem>
+                            </asp:MenuItem>
+                            <asp:MenuItem Text="VIEWBOOKINGDETAILS" Value="VIEWBOOKINGDETAILS"></asp:MenuItem>
+                            <asp:MenuItem Text="LOGOUT" Value="LOGOUT"></asp:MenuItem>
+                        </Items>
+                        <StaticHoverStyle BackColor="#990000" ForeColor="White" />
+                        <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                        <StaticSelectedStyle BackColor="#FFCC66" />
+                    </asp:Menu>
+                </td>
+            </tr>
+            <tr>
+                <td>
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="auto-style3">&nbsp;&nbsp;&nbsp;&nbsp; www.naveentravelmake.com</span>&nbsp;</td>
+            </tr>
+            <tr>
+                <td><span class="auto-style5">&nbsp;</span><span class="auto-style8">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="auto-style4">COPYRIGHTS@YUVANAVEEN</span></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
